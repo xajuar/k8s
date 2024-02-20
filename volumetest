@@ -17,9 +17,9 @@ spec:
   volumes:
   - name: home
     hostPath:
-      path: /home/kubernetes/datos
+      path: /home/xinete/
   - name: git
     gitRepo:
-      repository: https://github.com/apasoftTraining/cursoKubernetes.git
+      repository: https://github.com/xajuar/k8s/tree/main
   - name: temp
     emptyDir: {}
